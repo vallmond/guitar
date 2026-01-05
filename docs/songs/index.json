@@ -3,12 +3,12 @@
         "id": "gruppa_krovi",
         "title": "Группа крови",
         "artist": "Кино (Виктор Цой)",
-        "filename": "/songs/gruppa_krovi.json"
+        "filename": "songs/gruppa_krovi.json"
     },
     {
         "id": "sample",
         "title": "Sample Song",
         "artist": "Unknown",
-        "filename": "/songs/sample.json"
+        "filename": "songs/sample.json"
     }
 ]

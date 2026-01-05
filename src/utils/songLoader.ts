@@ -2,7 +2,13 @@ import type { SongData } from '../types';
 import { parseSongText } from './textParser';
 
 export async function loadSong(url: string = '/gruppa_krovi.json'): Promise<SongData> {
-    const response = await fetch(url);
+    const baseUrl = import.meta.env.BASE_URL;
+    // Strip leading slash if present to avoid double slash issues or root fetching
+    const cleanUrl = url.startsWith('/') ? url.slice(1) : url;
+    // Construct final URL relative to base
+    const finalUrl = baseUrl + cleanUrl;
+
+    const response = await fetch(finalUrl);
     if (!response.ok) {
         throw new Error(`Failed to load song: ${response.statusText}`);
     }

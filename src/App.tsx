@@ -30,7 +30,7 @@ function App() {
 
     if (songId) {
       setLoading(true);
-      fetch('/songs/index.json')
+      fetch(import.meta.env.BASE_URL + 'songs/index.json')
         .then(res => res.json())
         .then((library: any[]) => {
           const entry = library.find(s => s.id === songId);
@@ -117,12 +117,13 @@ function App() {
     // Attempt to extract ID from filename or just rely on index fetch? 
     // The current SongList implementation passes `song.url` (filename).
     // Let's quickly fetch the index to find the ID, ensuring valid URLs.
-    fetch('/songs/index.json')
+    // Let's quickly fetch the index to find the ID, ensuring valid URLs.
+    fetch(import.meta.env.BASE_URL + 'songs/index.json')
       .then(res => res.json())
       .then((library: any[]) => {
         const entry = library.find(s => s.filename === filename);
         if (entry) {
-          navigateToSong(entry.id, filename);
+          navigateToSong(entry.id, entry.filename); // filename passed as is, loader handles base
         } else {
           console.error("Could not find ID for file:", filename);
           // Fallback?
