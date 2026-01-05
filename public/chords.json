@@ -1,0 +1,612 @@
+{
+    "A": [
+        {
+            "name": "A",
+            "variant": "Open",
+            "startingFret": 1,
+            "strings": [
+                -1,
+                0,
+                2,
+                2,
+                2,
+                0
+            ],
+            "fingers": [
+                0,
+                0,
+                2,
+                1,
+                3,
+                0
+            ],
+            "barres": []
+        }
+    ],
+    "Am": [
+        {
+            "name": "Am",
+            "variant": "Open",
+            "startingFret": 1,
+            "strings": [
+                -1,
+                0,
+                2,
+                2,
+                1,
+                0
+            ],
+            "fingers": [
+                0,
+                0,
+                2,
+                3,
+                1,
+                0
+            ],
+            "barres": []
+        }
+    ],
+    "A7": [
+        {
+            "name": "A7",
+            "variant": "Open",
+            "startingFret": 1,
+            "strings": [
+                -1,
+                0,
+                2,
+                0,
+                2,
+                0
+            ],
+            "fingers": [
+                0,
+                0,
+                2,
+                0,
+                3,
+                0
+            ],
+            "barres": []
+        }
+    ],
+    "A#": [
+        {
+            "name": "A# (Bb)",
+            "variant": "Barre 1st",
+            "startingFret": 1,
+            "strings": [
+                -1,
+                1,
+                3,
+                3,
+                3,
+                1
+            ],
+            "fingers": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                1
+            ],
+            "barres": [
+                {
+                    "fret": 1,
+                    "fromString": 1,
+                    "toString": 5
+                }
+            ]
+        }
+    ],
+    "B7": [
+        {
+            "name": "B7 (H7)",
+            "variant": "Open",
+            "startingFret": 1,
+            "strings": [
+                -1,
+                2,
+                1,
+                2,
+                0,
+                2
+            ],
+            "fingers": [
+                0,
+                2,
+                1,
+                3,
+                0,
+                4
+            ],
+            "barres": []
+        }
+    ],
+    "Bm": [
+        {
+            "name": "Bm",
+            "variant": "Barre 2nd",
+            "startingFret": 2,
+            "strings": [
+                -1,
+                2,
+                4,
+                4,
+                3,
+                2
+            ],
+            "fingers": [
+                0,
+                1,
+                3,
+                4,
+                2,
+                1
+            ],
+            "barres": [
+                {
+                    "fret": 2,
+                    "fromString": 1,
+                    "toString": 5
+                }
+            ]
+        }
+    ],
+    "C": [
+        {
+            "name": "C",
+            "variant": "Open",
+            "startingFret": 1,
+            "strings": [
+                -1,
+                3,
+                2,
+                0,
+                1,
+                0
+            ],
+            "fingers": [
+                0,
+                3,
+                2,
+                0,
+                1,
+                0
+            ],
+            "barres": []
+        }
+    ],
+    "C#": [
+        {
+            "name": "C#",
+            "variant": "Barre 4th",
+            "startingFret": 4,
+            "strings": [
+                -1,
+                4,
+                6,
+                6,
+                6,
+                4
+            ],
+            "fingers": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                1
+            ],
+            "barres": [
+                {
+                    "fret": 4,
+                    "fromString": 1,
+                    "toString": 5
+                }
+            ]
+        }
+    ],
+    "C#m": [
+        {
+            "name": "C#m",
+            "variant": "Barre 4th",
+            "startingFret": 4,
+            "strings": [
+                -1,
+                4,
+                6,
+                6,
+                5,
+                4
+            ],
+            "fingers": [
+                0,
+                1,
+                3,
+                4,
+                2,
+                1
+            ],
+            "barres": [
+                {
+                    "fret": 4,
+                    "fromString": 1,
+                    "toString": 5
+                }
+            ]
+        }
+    ],
+    "D": [
+        {
+            "name": "D",
+            "variant": "Open",
+            "startingFret": 1,
+            "strings": [
+                -1,
+                -1,
+                0,
+                2,
+                3,
+                2
+            ],
+            "fingers": [
+                0,
+                0,
+                0,
+                1,
+                3,
+                2
+            ],
+            "barres": []
+        }
+    ],
+    "Dm": [
+        {
+            "name": "Dm",
+            "variant": "Open",
+            "startingFret": 1,
+            "strings": [
+                -1,
+                -1,
+                0,
+                2,
+                3,
+                1
+            ],
+            "fingers": [
+                0,
+                0,
+                0,
+                2,
+                3,
+                1
+            ],
+            "barres": []
+        }
+    ],
+    "D7": [
+        {
+            "name": "D7",
+            "variant": "Open",
+            "startingFret": 1,
+            "strings": [
+                -1,
+                -1,
+                0,
+                2,
+                1,
+                2
+            ],
+            "fingers": [
+                0,
+                0,
+                0,
+                2,
+                1,
+                3
+            ],
+            "barres": []
+        }
+    ],
+    "E": [
+        {
+            "name": "E",
+            "variant": "Open",
+            "startingFret": 1,
+            "strings": [
+                0,
+                2,
+                2,
+                1,
+                0,
+                0
+            ],
+            "fingers": [
+                0,
+                2,
+                3,
+                1,
+                0,
+                0
+            ],
+            "barres": []
+        }
+    ],
+    "Em": [
+        {
+            "name": "Em",
+            "variant": "Open",
+            "startingFret": 1,
+            "strings": [
+                0,
+                2,
+                2,
+                0,
+                0,
+                0
+            ],
+            "fingers": [
+                0,
+                2,
+                3,
+                0,
+                0,
+                0
+            ],
+            "barres": []
+        }
+    ],
+    "F": [
+        {
+            "name": "F",
+            "variant": "Barre 1st",
+            "startingFret": 1,
+            "strings": [
+                1,
+                3,
+                3,
+                2,
+                1,
+                1
+            ],
+            "fingers": [
+                1,
+                3,
+                4,
+                2,
+                1,
+                1
+            ],
+            "barres": [
+                {
+                    "fret": 1,
+                    "fromString": 0,
+                    "toString": 5
+                }
+            ]
+        }
+    ],
+    "F7": [
+        {
+            "name": "F7",
+            "variant": "Barre 1st",
+            "startingFret": 1,
+            "strings": [
+                1,
+                3,
+                1,
+                2,
+                1,
+                1
+            ],
+            "fingers": [
+                1,
+                3,
+                1,
+                2,
+                1,
+                1
+            ],
+            "barres": [
+                {
+                    "fret": 1,
+                    "fromString": 0,
+                    "toString": 5
+                }
+            ]
+        }
+    ],
+    "Fm": [
+        {
+            "name": "Fm",
+            "variant": "Barre 1st",
+            "startingFret": 1,
+            "strings": [
+                1,
+                3,
+                3,
+                1,
+                1,
+                1
+            ],
+            "fingers": [
+                1,
+                3,
+                4,
+                1,
+                1,
+                1
+            ],
+            "barres": [
+                {
+                    "fret": 1,
+                    "fromString": 0,
+                    "toString": 5
+                }
+            ]
+        }
+    ],
+    "F#": [
+        {
+            "name": "F#",
+            "variant": "Barre 2nd",
+            "startingFret": 2,
+            "strings": [
+                2,
+                4,
+                4,
+                3,
+                2,
+                2
+            ],
+            "fingers": [
+                1,
+                3,
+                4,
+                2,
+                1,
+                1
+            ],
+            "barres": [
+                {
+                    "fret": 2,
+                    "fromString": 0,
+                    "toString": 5
+                }
+            ]
+        }
+    ],
+    "F#m": [
+        {
+            "name": "F#m",
+            "variant": "Barre 2nd",
+            "startingFret": 2,
+            "strings": [
+                2,
+                4,
+                4,
+                2,
+                2,
+                2
+            ],
+            "fingers": [
+                1,
+                3,
+                4,
+                1,
+                1,
+                1
+            ],
+            "barres": [
+                {
+                    "fret": 2,
+                    "fromString": 0,
+                    "toString": 5
+                }
+            ]
+        },
+        {
+            "name": "F#m",
+            "variant": "Open Shape (No Barre)",
+            "startingFret": 1,
+            "strings": [
+                -1,
+                -1,
+                4,
+                2,
+                2,
+                2
+            ],
+            "fingers": [
+                0,
+                0,
+                3,
+                1,
+                1,
+                1
+            ],
+            "barres": []
+        }
+    ],
+    "G": [
+        {
+            "name": "G",
+            "variant": "Open",
+            "startingFret": 1,
+            "strings": [
+                3,
+                2,
+                0,
+                0,
+                0,
+                3
+            ],
+            "fingers": [
+                2,
+                1,
+                0,
+                0,
+                0,
+                3
+            ],
+            "barres": []
+        }
+    ],
+    "Gm": [
+        {
+            "name": "Gm",
+            "variant": "Barre 3rd",
+            "startingFret": 3,
+            "strings": [
+                3,
+                5,
+                5,
+                3,
+                3,
+                3
+            ],
+            "fingers": [
+                1,
+                3,
+                4,
+                1,
+                1,
+                1
+            ],
+            "barres": [
+                {
+                    "fret": 3,
+                    "fromString": 0,
+                    "toString": 5
+                }
+            ]
+        }
+    ],
+    "G7": [
+        {
+            "name": "G7",
+            "variant": "Open",
+            "startingFret": 1,
+            "strings": [
+                3,
+                2,
+                0,
+                0,
+                0,
+                1
+            ],
+            "fingers": [
+                3,
+                2,
+                0,
+                0,
+                0,
+                1
+            ],
+            "barres": []
+        }
+    ]
+}

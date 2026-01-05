@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "title": "Hotel California (Intro)",
+    "artist": "Eagles",
+    "bpm": 72,
+    "time_signature": [4, 4]
+  },
+  "patterns": {
+    "standard_rock": {
+      "name": "Standard Rock",
+      "len": 16,
+      "scheme": "D . . u . u D . . u D . . u D ."
+    }
+  },
+  "blocks": [
+    {
+      "type": "block",
+      "lines": [
+        {
+          "chord": "Bm",
+          "pattern": "standard_rock",
+          "lyrics": [
+            { "step": 0, "text": "On " },
+            { "step": 2, "text": "a " },
+            { "step": 4, "text": "dark " },
+            { "step": 8, "text": "des-" },
+            { "step": 12, "text": "ert " }
+          ]
+        },
+        {
+          "chord": "F#",
+          "pattern": "standard_rock",
+          "lyrics": [
+            { "step": 0, "text": "high-" },
+            { "step": 4, "text": "way" }
+          ]
+        }
+      ]
+    }
+  ]
+}

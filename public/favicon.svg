@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Guitar Pick Shape -->
+  <path d="M50 95 C 20 60, 5 35, 5 20 A 45 45 0 0 1 95 20 C 95 35, 80 60, 50 95 Z" fill="#9333ea" stroke="#581c87" stroke-width="2"/>
+  <!-- Music Note (Eighth Note) -->
+  <path d="M35 65 A 10 8 0 1 0 45 65 V 25 L 70 35 V 65 A 10 8 0 1 0 80 65 V 25 L 45 15 V 65" fill="white"/>
+</svg>
