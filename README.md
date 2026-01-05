@@ -2,6 +2,8 @@
 
 A modern, responsive web application for viewing guitar chords and lyrics with adaptive rhythm patterns and verified chord diagrams. Designed for seamless practice and quick reference.
 
+**LIVE DEMO**: [https://vallmond.github.io/guitar/](https://vallmond.github.io/guitar/)
+
 ## Features
 
 -   **Song Viewer**: Displays lyrics and chords with rhythmic spacing.
